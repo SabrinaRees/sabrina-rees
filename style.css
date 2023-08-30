@@ -61,5 +61,11 @@
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #669328;
+}
+
+.fa-regular,
+.fa-solid {
+    display: block;
+    text-align: center;
 }
