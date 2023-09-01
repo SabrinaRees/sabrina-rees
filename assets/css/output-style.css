@@ -318,9 +318,6 @@ video {
 [hidden] {
   display: none;
 }
-h1, h2, h3, h4 {
-  margin-bottom: 0.5em;
-}
 h1 {
   font-size: 1.875rem;
   line-height: .85;
@@ -337,10 +334,6 @@ h3 {
 h4 {
   font-size: 1.125rem;;
   line-height: .85;
-}
-p {
-  margin-bottom: 0.5em;
-  line-height: 1.5;
 }
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
@@ -474,9 +467,6 @@ p {
 .mb-10 {
   margin-bottom: 2.5rem;
 }
-.mb-2 {
-  margin-bottom: 0.5rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
 }
@@ -534,9 +524,6 @@ p {
 .max-w-screen-lg {
   max-width: 1024px;
 }
-.max-w-screen-xl {
-  max-width: 1280px;
-}
 .flex-shrink-0 {
   flex-shrink: 0;
 }
@@ -555,8 +542,8 @@ p {
 .flex-col {
   flex-direction: column;
 }
-.flex-nowrap {
-  flex-wrap: nowrap;
+.items-start {
+  align-items: flex-start;
 }
 .items-center {
   align-items: center;
@@ -592,6 +579,10 @@ p {
 .border-b-2 {
   border-bottom-width: 2px;
 }
+.bg-\[\#F0F0F0\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity));
+}
 .bg-cover {
   background-size: cover;
 }
@@ -613,6 +604,10 @@ p {
 }
 .p-\[5vw\] {
   padding: 5vw;
+}
+.px-10p {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 .px-2 {
   padding-left: 0.5rem;
@@ -638,12 +633,24 @@ p {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+.py-5p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.pb-3p {
+  padding-bottom: 3%;
+}
+.pb-5p {
+  padding-bottom: 5%;
 }
 .pl-4 {
   padding-left: 1rem;
+}
+.pl-5p {
+  padding-left: 5%;
+}
+.pr-5p {
+  padding-right: 5%;
 }
 .pt-10 {
   padding-top: 2.5rem;
@@ -651,8 +658,14 @@ p {
 .pt-5p {
   padding-top: 5%;
 }
+.pb-10p {
+  padding-bottom: 10%;
+}
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -662,12 +675,20 @@ p {
   font-size: 1.875rem;
   line-height: 1;
 }
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 1;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
+}
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
 }
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;;
   line-height: 1.2;
 }
 .font-black {
@@ -675,9 +696,6 @@ p {
 }
 .font-bold {
   font-weight: 700;
-}
-.font-semibold {
-  font-weight: 600;
 }
 .uppercase {
   text-transform: uppercase;
@@ -699,6 +717,8 @@ p {
 
 
 /* ----------- Default Styles to apply to the whole project  --------- */
+
+
 
   .card {
     padding-top: 1.5rem;
@@ -729,10 +749,29 @@ p {
     background-color: #669328;
 }
 
+.button-sonstiges {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #F0F0F0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-sonstiges:hover {
+    background-color: #669328;
+}
+
 .fa-regular,
 .fa-solid {
-    display: block;
+    display: inline-block;
     text-align: center;
+    font-size: 1.8rem;
 }
 
 .focus\:outline-none:focus {
@@ -753,8 +792,17 @@ p {
   .sm\:flex {
     display: flex;
   }
+  .sm\:grid {
+    display: grid;
+  }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .sm\:gap-5 {
+    gap: 1.25rem;
+  }
+  .sm\:pt-0 {
+    padding-top: 0px;
   }
   .sm\:text-left {
     text-align: left;
