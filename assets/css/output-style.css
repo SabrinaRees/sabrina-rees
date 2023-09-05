@@ -500,6 +500,9 @@ h4 {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
@@ -508,6 +511,9 @@ h4 {
 }
 .min-h-50 {
   min-height: 50vh;
+}
+.min-h-70 {
+  min-height: 70vh;
 }
 .w-24 {
   width: 6rem;
@@ -637,6 +643,9 @@ h4 {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.pb-10p {
+  padding-bottom: 10%;
+}
 .pb-3p {
   padding-bottom: 3%;
 }
@@ -657,9 +666,6 @@ h4 {
 }
 .pt-5p {
   padding-top: 5%;
-}
-.pb-10p {
-  padding-bottom: 10%;
 }
 .text-center {
   text-align: center;
@@ -718,6 +724,7 @@ h4 {
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
+ 
 
 
   .card {
