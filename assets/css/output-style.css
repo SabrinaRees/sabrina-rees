@@ -470,14 +470,14 @@ h4 {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
+.mb-3p {
+  margin-bottom: 3%;
+}
 .mb-4 {
   margin-bottom: 1rem;
 }
 .mb-5p {
   margin-bottom: 5%;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
@@ -496,9 +496,6 @@ h4 {
 }
 .mt-4 {
   margin-top: 1rem;
-}
-.mb-3p {
-  margin-bottom: 3%;
 }
 .block {
   display: block;
@@ -660,10 +657,6 @@ h4 {
 .py-5p {
   padding-top: 5%;
   padding-bottom: 5%;
-}
-.py-3p {
-  padding-top: 3%;
-  padding-bottom: 3%;
 }
 .pb-10p {
   padding-bottom: 10%;
@@ -906,6 +899,9 @@ h4 {
   }
   .md\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
+  }
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .md\:gap-4 {
     gap: 1rem;
