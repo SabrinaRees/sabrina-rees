@@ -527,6 +527,9 @@ h4 {
 .min-w-0 {
   min-width: 0px;
 }
+.max-w-md {
+  max-width: 28rem;
+}
 .max-w-screen-lg {
   max-width: 1024px;
 }
@@ -608,6 +611,9 @@ h4 {
 .p-6 {
   padding: 1.5rem;
 }
+.p-8 {
+  padding: 2rem;
+}
 .p-\[5vw\] {
   padding: 5vw;
 }
@@ -646,8 +652,14 @@ h4 {
 .pb-10p {
   padding-bottom: 10%;
 }
+.pb-2 {
+  padding-bottom: 0.5rem;
+}
 .pb-3p {
   padding-bottom: 3%;
+}
+.pb-5 {
+  padding-bottom: 1.25rem;
 }
 .pb-5p {
   padding-bottom: 5%;
@@ -663,6 +675,9 @@ h4 {
 }
 .pt-10 {
   padding-top: 2.5rem;
+}
+.pt-5 {
+  padding-top: 1.25rem;
 }
 .pt-5p {
   padding-top: 5%;
@@ -693,8 +708,15 @@ h4 {
   font-size: 3.75rem;
   line-height: 1;
 }
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
+}
 .text-lg {
   font-size: 1.125rem;;
+  line-height: 1.2;
+}
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.2;
 }
 .font-black {
@@ -702,6 +724,9 @@ h4 {
 }
 .font-bold {
   font-weight: 700;
+}
+.font-semibold {
+  font-weight: 600;
 }
 .uppercase {
   text-transform: uppercase;
@@ -810,6 +835,10 @@ h4 {
   }
   .sm\:text-left {
     text-align: left;
+  }
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
 
