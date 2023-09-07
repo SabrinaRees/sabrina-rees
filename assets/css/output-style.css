@@ -497,6 +497,9 @@ h4 {
 .mt-4 {
   margin-top: 1rem;
 }
+.mb-3p {
+  margin-bottom: 3%;
+}
 .block {
   display: block;
 }
@@ -658,6 +661,10 @@ h4 {
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.py-3p {
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
 .pb-10p {
   padding-bottom: 10%;
 }
@@ -702,6 +709,9 @@ h4 {
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-2xl {
   font-size: 1.5rem;
