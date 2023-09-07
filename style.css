@@ -78,6 +78,24 @@
     background-color: #669328;
 }
 
+.button-subscribe {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    background-color: #d3d3d3;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-subscribe:hover {
+    background-color: #bfbfbf;
+}
+
 .fa-regular,
 .fa-solid {
     display: inline-block;
