@@ -685,6 +685,9 @@ h4 {
 .pl-5p {
   padding-left: 5%;
 }
+.pr-15p {
+  padding-right: 15%;
+}
 .pr-5p {
   padding-right: 5%;
 }
@@ -894,14 +897,14 @@ h4 {
   .md\:w-auto {
     width: auto;
   }
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
   .md\:grid-cols-7 {
     grid-template-columns: repeat(7, minmax(0, 1fr));
-  }
-  .md\:grid-cols-2 {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
   .md\:gap-4 {
     gap: 1rem;
