@@ -512,8 +512,14 @@ h4 {
 .aspect-square {
   aspect-ratio: 1 / 1;
 }
+.h-auto {
+  height: auto;
+}
 .h-full {
   height: 100%;
+}
+.h-32 {
+  height: 8rem;
 }
 .min-h-30 {
   min-height: 30vh;
@@ -577,6 +583,9 @@ h4 {
 }
 .gap-6 {
   gap: 1.5rem;
+}
+.overflow-hidden {
+  overflow: hidden;
 }
 .overflow-x-scroll {
   overflow-x: scroll;
@@ -948,6 +957,9 @@ nav a {
   .sm\:hidden {
     display: none;
   }
+  .sm\:h-32 {
+    height: 8rem;
+  }
   .sm\:min-h-50 {
     min-height: 50vh;
   }
@@ -1055,6 +1067,9 @@ nav a {
   }
   .md\:grid {
     display: grid;
+  }
+  .md\:h-48 {
+    height: 12rem;
   }
   .md\:w-auto {
     width: auto;
