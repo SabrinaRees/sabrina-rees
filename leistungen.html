@@ -12,9 +12,18 @@ seo:
 <!--------Header Banner----------->
 
 <section class="md:grid md:grid-cols-2 justify-center items-center  bg-[#F0F0F0]">
-	<div class="col-span-1">
-		<img src="/images/coaching-banner.png" alt="">
-	</div>
+	
+    <div class="md:hidden h-full flex items-center justify-center"> 
+        <img src="/images/coaching-banner.png" alt="" class="object-cover h-full"> 
+    </div>
+
+
+    <div class="hidden md:flex col-span-1 h-full items-center justify-center" style="background-image: url('/images/coaching-banner.png'); background-position: 25% 50%; background-size: cover;">
+    </div>
+
+
+
+
 	<div class="text-center pb-10p">
 		<h1 class="font-black text-[2.5rem] sm:text-6xl py-10"> Leistungen </h1>
 		<p class="text-2xl sm:text-4xl font-black pb-10p sm:px-5p"> Coachings, Beratungen, Workshops </p>
@@ -26,7 +35,7 @@ seo:
 <!--------Frage----------->
 
 <div class="sm:p-5p pb-10p sm:pb-5p text-center" id="coaching">
-    <h3 class="text-xl sm:text-2xl font-bold pt-10p sm:pt-0 px-10p sm:px-5p pb-3p"> Wie kann ich Ihnen behilflich sein? </h3>
+    <h3 class="text-xl sm:text-2xl font-bold pt-10p sm:pt-0 px-10p sm:px-5p pb-3p xl:pb-0"> Wie kann ich Ihnen behilflich sein? </h3>
     <div class="text-center">
         <a href="#job" class="button-sonstiges mb-5p sm:mb-0 sm:mr-2 text-xs sm:text-base"> Berufliche Veränderungen </a>
         <a href="#privat" class="button-sonstiges mb-5p sm:mb-0 sm:mr-2 text-xs sm:text-base"> Private Veränderungen </a>
@@ -54,7 +63,7 @@ seo:
         </div>
 	</div>
 
-    <div class="col-span-1 bg-cover bg-center min-h-30 sm:min-h-50" style="background-image:url(/images/berufliche-veraenderung.png)">
+    <div class="col-span-1 bg-cover bg-center min-h-30 sm:min-h-50 md:min-h-40 xl:min-h-30" style="background-image:url(/images/berufliche-veraenderung.png)">
     </div>
 
 </section>
@@ -71,7 +80,7 @@ seo:
 <section class="sm:grid sm:grid-cols-2 justify-center gap-5 items-center p-5p bg-[#F0F0F0]" id="job">
 	
 
-    <div class="col-span-1 bg-cover min-h-30 " style="background-image:url(/images/erfolg.png)">
+    <div class="col-span-1 bg-cover min-h-30 bg-center" style="background-image:url(/images/erfolg.png)">
     </div>
 
 	<div class="pt-10p sm:pt-5p sm:pl-5p">
@@ -109,7 +118,7 @@ seo:
 
 	</div>
 
-    <div class="hidden sm:block col-span-1 bg-cover bg-center min-h-60" style="background-image:url(/images/antworten.png)">
+    <div class="hidden sm:block col-span-1 bg-cover bg-center min-h-60 md:min-h-50 xl:min-h-40" style="background-image:url(/images/antworten.png)">
     </div>
 
     <div class="col-span-full">

@@ -28,6 +28,26 @@
 
   }
 
+  html {
+    scroll-behavior: smooth;
+      }
+
+
+
+
+/* For regular laptops and smaller screens */
+body {
+    max-width: 100%; /* Allow it to expand to the full width of the screen */
+}
+
+/* For larger screens like flatscreen TVs */
+@media screen and (min-width: 1600px) {
+    body {
+        max-width: 1600px; /* Set a specific max-width for larger screens */
+        margin: 0 auto; /* Center the content horizontally */
+    }
+}
+
 .headdiv {
     display: flex;
     justify-content: space-between;
@@ -97,13 +117,14 @@ nav a {
 
 @media (max-width: 768px) {
     .hamburger-wrapper {
-        display: inline-block;
+        display: none;
     }
 
     nav {
         display: none;
     }
 }
+
 
 
   .card {

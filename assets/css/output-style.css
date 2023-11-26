@@ -760,6 +760,26 @@ h4 {
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
+  html {
+    scroll-behavior: smooth;
+      }
+
+
+
+
+/* For regular laptops and smaller screens */
+body {
+    max-width: 100%; /* Allow it to expand to the full width of the screen */
+}
+
+/* For larger screens like flatscreen TVs */
+@media screen and (min-width: 1600px) {
+    body {
+        max-width: 1600px; /* Set a specific max-width for larger screens */
+        margin: 0 auto; /* Center the content horizontally */
+    }
+}
+
 .headdiv {
     display: flex;
     justify-content: space-between;
@@ -829,13 +849,14 @@ nav a {
 
 @media (max-width: 768px) {
     .hamburger-wrapper {
-        display: inline-block;
+        display: none;
     }
 
     nav {
         display: none;
     }
 }
+
 
 
   .card {
@@ -973,10 +994,6 @@ nav a {
   .sm\:p-5p {
     padding: 5%;
   }
-  .sm\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
   .sm\:px-10p {
     padding-left: 10%;
     padding-right: 10%;
@@ -1057,11 +1074,17 @@ nav a {
   .md\:block {
     display: block;
   }
+  .md\:flex {
+    display: flex;
+  }
   .md\:grid {
     display: grid;
   }
   .md\:hidden {
     display: none;
+  }
+  .md\:min-h-40 {
+    min-height: 40vh;
   }
   .md\:min-h-50 {
     min-height: 50vh;
@@ -1102,14 +1125,54 @@ nav a {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+  .md\:pb-15p {
+    padding-bottom: 15%;
+  }
   .md\:pl-5p {
     padding-left: 5%;
   }
   .md\:pt-0 {
     padding-top: 0px;
   }
+  .md\:pt-25p {
+    padding-top: 25%;
+  }
   .md\:text-left {
     text-align: left;
+  }
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+  .lg\:grid {
+    display: grid;
+  }
+  .lg\:hidden {
+    display: none;
+  }
+  .lg\:grid-cols-2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:min-h-30 {
+    min-height: 30vh;
+  }
+  .xl\:min-h-40 {
+    min-height: 40vh;
+  }
+  .xl\:pb-0 {
+    padding-bottom: 0px;
+  }
+  .xl\:pt-5p {
+    padding-top: 5%;
   }
 }
 

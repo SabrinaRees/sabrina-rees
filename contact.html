@@ -12,12 +12,18 @@ seo:
 <!--------Header Banner----------->
 
 <section class="md:grid md:grid-cols-2 justify-center items-center  bg-[#F0F0F0]">
-	<div class="col-span-1">
-		<img src="/images/systemische-karte.png" alt="">
-	</div>
+	
+    <div class="md:hidden h-full flex items-center justify-center"> 
+        <img src="/images/systemische-karte.png" alt="" class="object-cover h-full"> 
+    </div>
+
+
+    <div class="hidden md:flex col-span-1 h-full items-center justify-center" style="background-image: url('/images/systemische-karte.png'); background-position: 25% 50%; background-size: cover;">
+    </div>
+
 	<div class="text-center">
-		<h1 class="font-black text-[2.5rem] sm:text-6xl pt-10p pb-5p"> Kontakt </h1>
-		<p class="text-xl sm:text-2xl pb-10p px-5p "> Sie können mich telefonisch, per Email oder mit Hilfe des untenstehenden Formulars erreichen. </p>
+		<h1 class="font-black text-[2.5rem] sm:text-6xl pt-10p md:pt-25p pb-5p"> Kontakt </h1>
+		<p class="text-xl sm:text-2xl pb-10p md:pb-15p px-5p "> Sie können mich telefonisch, per Email oder mit Hilfe des untenstehenden Formulars erreichen. </p>
 	</div>
 </section>
 
@@ -36,7 +42,7 @@ seo:
 
 <!--------Telefonisch & Email----------->
 
-<section class="sm:grid grid-cols-5 px-5p pt-10p">
+<section class="sm:grid grid-cols-5 px-5p pt-10p xl:pt-5p">
 
     <div class="hidden sm:flex col-span-1 text-right justify-center pt-3p">
         <i class="fa-solid fa-phone inline-block"></i>
@@ -126,7 +132,7 @@ seo:
 
 <!--------Räumlichkeiten----------->
 
-<div class="sm:pt-10p pb-10p sm:pb-5p text-center">
+<div class="sm:pt-10p pb-10p sm:pb-5p text-center xl:pt-5p">
     <p class="text-2xl sm:text-4xl font-black pb-3p"> Die Räumlichkeiten finden Sie hier: </p>
 
     <p> Kortumstraße 54, 45131 Essen </p>
