@@ -11,7 +11,7 @@ seo:
 
 <!--------Header Banner----------->
 
-<section class="grid grid-cols-2 justify-center items-center  bg-[#F0F0F0]">
+<section class="sm:grid sm:grid-cols-2 justify-center items-center  bg-[#F0F0F0]">
 	<div class="col-span-1">
 		<img src="/images/systemische-karte.png" alt="">
 	</div>
@@ -23,11 +23,11 @@ seo:
 
 <!----------Allgemeine Antworten------->
 
-<section class="px-5p pt-3p text-center text-lg">
+<section class="px-5p text-center pt-5p">
 
     <p> Die Termine finden über Zoom oder persönlich in Essen statt. </p>
     
-    <p> Zeitlich können sie ganz individuell gelegt und gestaltet werden, <br> so wie wir gemeinsam den Bedarf sehen. </p>
+    <p> Zeitlich können sie ganz individuell gelegt und gestaltet werden, so wie wir gemeinsam den Bedarf sehen. </p>
     
     <p> Wenn Sie Fragen haben, scheuen Sie sich bitte nicht, sie zu stellen. </p>
 
@@ -36,90 +36,98 @@ seo:
 
 <!--------Telefonisch & Email----------->
 
-<section class="grid grid-cols-5 p-5p">
+<section class="grid grid-cols-5 px-5p pt-10p">
 
-    <div class="col-span-1 text-right flex items-center justify-center">
+    <div class="col-span-1 text-right flex justify-center pt-3p">
         <i class="fa-solid fa-phone inline-block"></i>
     </div>
     <div class="col-span-4 flex flex-col justify-center">
-        <p class="text-3xl font-bold pb-3p"> Rufen Sie mich an: </p>
+        <p class="text-2xl sm:text-4xl font-black pb-3p"> Rufen Sie mich an: </p>
         <p> <a href="tel:00491788278205" class="border-b-2 items-center"> +49 178 827 820 5 </a>  </p>
         <p class="pt-3p"> Sollten Sie mich nicht direkt erreichen können, hinterlassen Sie mir bitte eine Nachricht mit Ihrem Namen und Ihrer Telefonnummer. Ich werde Sie sobald wie möglich zurückrufen. </p>
     </div>
 
-    <div class="col-span-1 text-right flex items-center justify-center">
+</section>
+<section class="grid grid-cols-5 px-5p pt-5p">
+    <div class="col-span-1 text-right flex justify-center pt-3p">
         <i class="fa-solid fa-envelope inline-block"></i>
     </div>
     <div class="col-span-4 flex flex-col justify-center">
-        <p class="text-3xl font-bold pb-3p pt-5p"> Schreiben Sie mir eine Email:  </p>
+        <p class="text-2xl sm:text-4xl font-black pb-3p"> Schreiben Sie mir eine Email:  </p>
         <p class="mb-3p"> <a href="mailto:sabrina@sabrinarees.de" class="border-b-2"> sabrina@sabrinarees.de </a> </p>
     </div>
-
 </section>
+
+<section class="grid grid-cols-5 px-5p pt-5p">
+    <div class="col-span-1 text-right flex justify-center pt-3p">
+        <i class="fa-regular fa-rectangle-list inline-block"></i>
+    </div>
+    <div class="col-span-4 flex flex-col justify-center">
+        <p class="text-2xl sm:text-4xl font-black pb-3p"> Kontaktformular  </p>
+        <section class="max-w-screen-xl mb-10 sm:mb-0">
+                    
+            <form class="mx-auto bg-gray-100 rounded-lg">
+        
+                <div class="mb-4">
+                    <label for="name" class="block tracking-widest mb-0.6">
+                        <span class="text-[#f70000]">*</span> Name
+                    </label>
+                    <input 
+                        type="text" name="name" id="name" placeholder="" aria-label="Name"
+                        class="border py-1 px-2 w-full bg-gray-200" required />
+                </div>
+                
+                <div class="mb-4">
+                    <label for="phone" class="block tracking-widest mb-0.6">
+                        <span class="text-[#f70000]">*</span> Telefonnummer
+                    </label>
+                    <input 
+                        type="tel" name="phone" id="phone" placeholder="" aria-label="Telefonnummer"
+                        class="border py-1 px-2 w-full bg-gray-200" required />
+                </div>
+            
+                <div class="mb-4">
+                    <label for="email" class="block tracking-widest mb-0.6">
+                        E-Mail-Adresse
+                    </label>
+                    <input 
+                        type="email" name="email" id="email" placeholder="" aria-label="E-Mail-Adresse"
+                        class="border py-1 px-2 w-full bg-gray-200"/>
+                </div>
+            
+                <div class="mb-4">
+                    <label for="message" class="block tracking-widest mb-0.6">
+                        <span class="text-[#f70000]">*</span> Nachricht
+                    </label>
+                    <textarea 
+                        rows="8" name="message" id="message" placeholder=""
+                        class="border py-1 px-2 w-full bg-gray-200" required></textarea>
+                </div>
+            
+                <p> Es gilt die <span class="text-[#74a72d] border-b"> <a href="/datenschutz.html"> Datenschutzerklärung </a> </span> . </p>
+               
+                <div class="block ml-auto">
+                    <button type="submit" class="button uppercase border mt-4"> Absenden </button>
+                </div>
+            
+            </form>
+            
+            <p class="py-3p"> <strong> Hinweis: </strong> Bitte die mit <span class="text-[#f70000]"> * </span> gekennzeichneten Felder ausfüllen.  </p>
+            
+        </section>
+    </div>
+</section>
+
 
 
 <!--------Contact Form-------------->
 
-<section class="max-w-screen-xl mx-auto px-5p mb-10 sm:mb-0">
-                
-    <div class="mb-8">
-        <h3 class="text-3xl font-bold text-center"> Kontaktformular </h3>
-    </div>
-    
-    <form class="max-w-xl mx-auto p-4 bg-gray-100 rounded-lg">
 
-        <div class="mb-4">
-            <label for="name" class="block tracking-widest mb-0.6">
-                <span class="text-[#f70000]">*</span> Name
-            </label>
-            <input 
-                type="text" name="name" id="name" placeholder="" aria-label="Name"
-                class="border py-1 px-2 w-full bg-gray-200" required />
-        </div>
-        
-        <div class="mb-4">
-            <label for="phone" class="block tracking-widest mb-0.6">
-                <span class="text-[#f70000]">*</span> Telefonnummer
-            </label>
-            <input 
-                type="tel" name="phone" id="phone" placeholder="" aria-label="Telefonnummer"
-                class="border py-1 px-2 w-full bg-gray-200" required />
-        </div>
-    
-        <div class="mb-4">
-            <label for="email" class="block tracking-widest mb-0.6">
-                E-Mail-Adresse
-            </label>
-            <input 
-                type="email" name="email" id="email" placeholder="" aria-label="E-Mail-Adresse"
-                class="border py-1 px-2 w-full bg-gray-200"/>
-        </div>
-    
-        <div class="mb-4">
-            <label for="message" class="block tracking-widest mb-0.6">
-                <span class="text-[#f70000]">*</span> Nachricht
-            </label>
-            <textarea 
-                rows="8" name="message" id="message" placeholder=""
-                class="border py-1 px-2 w-full bg-gray-200" required></textarea>
-        </div>
-    
-        <p> Es gilt die <span class="text-[#74a72d] border-b"> <a href="/datenschutz.html"> Datenschutzerklärung </a> </span> . </p>
-       
-        <div class="block ml-auto">
-            <button type="submit" class="button uppercase border mt-4"> Absenden </button>
-        </div>
-    
-    </form>
-    
-    <p class="pl-4"> <strong> Hinweis: </strong> Bitte die mit <span class="text-[#f70000]"> * </span> gekennzeichneten Felder ausfüllen.  </p>
-    
-</section>
 
 <!--------Räumlichkeiten----------->
 
-<div class="p-5p text-center">
-    <p class="text-3xl font-bold"> Die Räumlichkeiten finden Sie hier: </p>
+<div class="pt-10p pb-5p text-center">
+    <p class="text-2xl sm:text-4xl font-black pb-3p"> Die Räumlichkeiten finden Sie hier: </p>
 
     <p> Kortumstraße 54, 45131 Essen </p>
 
@@ -132,10 +140,10 @@ seo:
 
 <!--------Zufriedenheitsgarantie----------->
 
-<div class="px-5p pb-5p text-center">
-    <p class="text-3xl font-bold pb-3p"> 100% Zufriedenheitsgarantie </p>
+<div class="px-5p pb-10p text-center">
+    <p class="text-2xl sm:text-4xl font-black pb-3p"> 100% Zufriedenheitsgarantie </p>
 
-    <div class="text-center text-xl">
+    <div class="px-10p">
         <p> Wenn Sie nach dem ersten Termin nicht vollends zufrieden sind, entstehen für Sie keinerlei Kosten.
         </p>
     </div>
