@@ -521,6 +521,9 @@ h4 {
 .min-h-40 {
   min-height: 40vh;
 }
+.min-h-60 {
+  min-height: 60vh;
+}
 .min-h-70 {
   min-height: 70vh;
 }
@@ -937,6 +940,9 @@ nav a {
   .sm\:mr-2 {
     margin-right: 0.5rem;
   }
+  .sm\:mt-3p {
+    margin-top: 3%;
+  }
   .sm\:block {
     display: block;
   }
@@ -955,11 +961,8 @@ nav a {
   .sm\:min-h-50 {
     min-height: 50vh;
   }
-  .sm\:min-h-60 {
-    min-height: 60vh;
-  }
-  .sm\:min-h-70 {
-    min-height: 70vh;
+  .sm\:\!max-w-\[50\%\] {
+    max-width: 50% !important;
   }
   .sm\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -978,13 +981,13 @@ nav a {
     padding-left: 10%;
     padding-right: 10%;
   }
-  .sm\:px-15p {
-    padding-left: 15%;
-    padding-right: 15%;
-  }
   .sm\:px-5p {
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .sm\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
   .sm\:py-5p {
     padding-top: 5%;
@@ -1057,6 +1060,9 @@ nav a {
   .md\:grid {
     display: grid;
   }
+  .md\:hidden {
+    display: none;
+  }
   .md\:min-h-50 {
     min-height: 50vh;
   }
@@ -1096,11 +1102,11 @@ nav a {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
-  .md\:pt-0 {
-    padding-top: 0px;
-  }
   .md\:pl-5p {
     padding-left: 5%;
+  }
+  .md\:pt-0 {
+    padding-top: 0px;
   }
   .md\:text-left {
     text-align: left;
