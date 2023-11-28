@@ -787,10 +787,6 @@ body {
     padding: 20px;
 }
 
-nav {
-    display: none;
-}
-
 nav a {
     text-decoration: none;
     color: #333; /* Add your preferred text color */
@@ -801,7 +797,6 @@ nav a {
 
 .hamburger-wrapper {
     cursor: pointer;
-    display: none;
     z-index: 100;
 }
 
@@ -847,12 +842,8 @@ nav a {
     font-size: 1.5rem;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .hamburger-wrapper {
-        display: none;
-    }
-
-    nav {
         display: none;
     }
 }
