@@ -691,6 +691,9 @@ h4 {
 .pr-5p {
   padding-right: 5%;
 }
+.pt-0 {
+  padding-top: 0px;
+}
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1110,6 +1113,9 @@ nav a {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+  .md\:pb-10p {
+    padding-bottom: 10%;
+  }
   .md\:pb-15p {
     padding-bottom: 15%;
   }
@@ -1147,17 +1153,53 @@ nav a {
 }
 
 @media (min-width: 1280px) {
-  .xl\:min-h-30 {
-    min-height: 30vh;
-  }
   .xl\:min-h-40 {
     min-height: 40vh;
+  }
+  .xl\:min-h-50 {
+    min-height: 50vh;
+  }
+  .xl\:min-h-70 {
+    min-height: 70vh;
+  }
+  .xl\:items-center {
+    align-items: center;
+  }
+  .xl\:justify-center {
+    justify-content: center;
   }
   .xl\:pb-0 {
     padding-bottom: 0px;
   }
   .xl\:pt-5p {
     padding-top: 5%;
+  }
+  .xl\:text-center {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:min-h-50 {
+    min-height: 50vh;
+  }
+  .\32xl\:min-h-60 {
+    min-height: 60vh;
+  }
+  .\32xl\:min-h-90 {
+    min-height: 90vh;
+  }
+  .\32xl\:bg-center {
+    background-position: center;
+  }
+  .\32xl\:pb-5p {
+    padding-bottom: 5%;
+  }
+  .\32xl\:pt-10p {
+    padding-top: 10%;
+  }
+  .\32xl\:pt-15p {
+    padding-top: 15%;
   }
 }
 
